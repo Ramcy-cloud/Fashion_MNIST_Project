@@ -1,17 +1,17 @@
-# 👔 Fashion-MNIST Classification Benchmark
+#  Fashion-MNIST Classification Benchmark
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red)
 
-## 📖 À propos du projet
+##  À propos du projet
 Ce projet est une étude de cas réalisée dans le cadre du cours **"Advanced Machine Learning"** à **Junia_ISEN**.
 
 L'objectif était de comparer les limites des architectures denses (**MLP**) face à la puissance d'extraction spatiale des réseaux convolutifs (**CNN**) sur le dataset **Fashion-MNIST**.
 
 ---
 
-## 🧪 Partie 1 : L'approche MLP (Multi-Layer Perceptron)
+##  Partie 1 : L'approche MLP (Multi-Layer Perceptron)
 Nous avons d'abord testé un réseau dense classique, puis optimisé (Adam, Batch Normalization, Dropout).
 
 * **Précision maximale :** ~88%
@@ -19,7 +19,7 @@ Nous avons d'abord testé un réseau dense classique, puis optimisé (Adam, Batc
 
 ---
 
-## 🚀 Partie 2 : L'approche CNN (Convolutional Neural Network)
+##  Partie 2 : L'approche CNN (Convolutional Neural Network)
 Pour résoudre ce problème, nous avons implémenté une architecture convolutive (Inspirée de LeNet) permettant de conserver l'image en 2D et d'extraire des "features" (bords, cols, manches).
 
 * **Nouvelle Précision :** **~91%** (+3% d'amélioration nette).
