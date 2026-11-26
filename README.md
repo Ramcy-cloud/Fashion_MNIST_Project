@@ -152,3 +152,9 @@ Fashion_MNIST_Project/
 ## Auteur
 
 **Ramcy-cloud** — étudiant à Junia ISEN
+
+## Licence
+
+© 2026 Ramcy-cloud. Tous droits réservés.
+
+Ce code est consultable publiquement mais n'est pas sous licence libre : aucun droit d'utilisation, de modification ou de redistribution n'est accordé.
